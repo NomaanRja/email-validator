@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">Ivadlidate</div>
+            <ul>
+                <li><a href="http:/">Home</a></li>
+                <li><a href="http:/">About</a></li>
+                <li><a href="http:/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Enter Your Email To Validate</h1>
+            <form action="/submit" method="post">
+                <!-- Text input for username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+            
+                <!-- Password input -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+            
+                <!-- Radio buttons for gender -->
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br><br>
+            
+                <!-- Submit button -->
+                <button class="btn">Submit</button>
+              </form>
+        </div>
+    </main>
+
+    <footer>
+        copywrite@nomaanrja || all right reserved    </footer>
+    <script src="/scripts.js"></script>
+</body>
+
+</html>
