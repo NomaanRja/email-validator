@@ -89,3 +89,18 @@ h1{
   }
 
 }
+
+#resultcont div::first-letter{
+  text-transform: uppercase;
+}
+input[type='text']{
+    background-color:azure;
+    color: black;
+    min-width: 23vw;
+    padding: 5px 12px;
+    
+}
+img{
+    width: 100px;
+    margin-left:30px;
+}
